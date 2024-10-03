@@ -27,6 +27,7 @@ public class Main {
         else {
             System.out.println("The seat is already booked");
         }
+        displaySeating(seats);
 
 
 //
@@ -86,7 +87,8 @@ public class Main {
 
     private static void displaySeating(char[][] seats) {
         System.out.println("Cinema System Arrangement:");
-        System.out.println(" 1 2 3 4 5");
+        System.out.println("1 2 3 4 5");
+        System.out.println("----------");
         for (int i =0; i < seats.length; i++){
             for (int j = 0; j < seats.length; j++){
                 System.out.print(seats[i][j] + " ");
