@@ -23,19 +23,19 @@ public class Book {
         return price;
     }
 
-    public void setTitle(String title){
+    public void setTitle(String title) {
         this.title = title;
     }
 
-    public void setAuthor(String author){
+    public void setAuthor(String author) {
         this.author = author;
     }
 
-    public void setPrice(int price){
+    public void setPrice(int price) {
         this.price = price;
     }
 
-    public void displayDetails(){
+    public void displayDetails() {
         System.out.println("Book's Title: " + title);
         System.out.println("Book's Author: " + author);
         System.out.println("Book's Price: " + price);

@@ -1,3 +1,6 @@
+//Valeriia Savych
+//T00739110
+
 public class Library {
     public static void main(String[] args) {
         Book book1 = new Book("The Tales of Beedle and Bard", "J. K. Rowling", 22);
@@ -9,8 +12,6 @@ public class Library {
         System.out.println("Book 2: ");
         book2.displayDetails();
 
-        book1.setTitle("IT");
-        book1.setAuthor("Stephen King");
         book1.setPrice(23);
 
         System.out.println("Updated Book 1: ");
