@@ -55,11 +55,13 @@ public class Main {
                             (userChoice.equalsIgnoreCase("Scissors") && computerChoice.equals("Paper"))
             ) {
                 System.out.println("You win!");
+
             } else if (computerChoice.equals("Rock") && userChoice.equalsIgnoreCase("Scissors") ||
                     computerChoice.equals("Paper") && userChoice.equalsIgnoreCase("Rock") ||
                     computerChoice.equals("Scissors") && userChoice.equalsIgnoreCase("Paper")) {
 
                 System.out.println("Computer wins!");
+
             } else {
                 System.out.println("Invalid choice");
             }
