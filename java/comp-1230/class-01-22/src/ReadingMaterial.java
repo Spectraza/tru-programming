@@ -2,9 +2,12 @@ public class ReadingMaterial {
     private String title;
     private String isbn;
     private double price;
+    private String author;
+    private String editor;
+    private String month;
     private int year;
-    private Book book = new Book();
-    private Magazine magazine = new Magazine();
+    private Book book = new Book(author);
+    private Magazine magazine = new Magazine(editor, month);
 
     public ReadingMaterial(String title, String isbn, double price, int year) {
         this.title = title;
