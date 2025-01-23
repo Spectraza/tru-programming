@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Book book = new Book();
-        Magazine magazine = new Magazine();
-
         System.out.println("Enter the title: ");
         String title = new Scanner(System.in).nextLine();
 
@@ -22,7 +19,7 @@ public class Main {
         System.out.println("Enter the author: ");
         String author = new Scanner(System.in).nextLine();
 
-        book.setAuthor(author);
+        Book book = new Book(author);
 
         System.out.println("Enter the editor: ");
         String editor = new Scanner(System.in).nextLine();
@@ -30,8 +27,7 @@ public class Main {
         System.out.println("Enter the month: ");
         String month = new Scanner(System.in).nextLine();
 
-        magazine.setEditor(editor);
-        magazine.setMonth(month);
+        Magazine magazine = new Magazine(editor, month);
 
         System.out.println(rm.toString());
         rm.display();
