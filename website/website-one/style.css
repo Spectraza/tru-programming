@@ -1,0 +1,14 @@
+* {
+    background-color: #94b16e;
+}
+
+p{
+    color: red;
+    font-family: arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+pre{
+    background-color: yellow;
+}
