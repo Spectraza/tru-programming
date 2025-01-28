@@ -1,0 +1,23 @@
+table, td {
+    border: 1px solid black;
+    /*width: 60%;*/
+    border-collapse: collapse;
+    background-color: lightblue;
+    /*border-spacing: 100px;*/
+
+}
+
+th {
+    background-color: #c190fd;
+    border: 2px dashed #258cff;
+    text-align: center;
+}
+
+tr{
+    height: 60px;
+}
+
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+}
