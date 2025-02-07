@@ -1,0 +1,94 @@
+body {
+    background-color: #73498d; /*Color for the background of the website*/
+    text-align: center; /*place the text in the center*/
+    color: white; /*color of the text*/
+    margin: 0; /*It is usually used to move blocks somewhere else or center them, but in this case is to remove any extra spaces in website*/
+    padding: 0; /*This one is similar to margin, but it makes spaces inside the blocks and website. In this case it was also used to remove
+    any extra spaces inside the website */
+
+}
+
+nav{ /*I explained what the tag nav is on index.html website*/
+    text-align: center;
+    background-color: #9f7486;
+    width: 35%;
+    /*we can give thr width by using px or %*/
+    /*margin left moves this object to the left side a bit. The same goes for margin-right but it moves to the right side.
+    However, in this case, it was used to center the block nav to the center of the website, since the tag 'text-align: center'
+    does not work for everyone*/
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px; /*make corners circled*/
+    padding: 10px; /*make some space inside the block*/
+}
+
+h2{
+    text-align: center;
+}
+
+/*This is how we called our 'div' tags through their id*/
+#pd_container, #ed_container, #ob_container,#work_container, #skill_container, #hobbies_container, #ideals_container, #achieve_container, #values_container, #schedule-container {
+    background: #dc6dab;
+    width: 99.5%;
+    height: 99.5%;
+    border: 5px solid #ffd1e9; /*a border line with exact width and color*/
+    border-radius: 10px;
+    margin-top: 10px; /*make some space above, and move the block from above to below*/
+    font-size: 17px; /*the size of the text*/
+
+}
+
+/*The same goes here*/
+#text_pd, #text_ed, #text_achieve, #text_hobbies, #text_ob, #text_ideals, #text_skill, #text_work, #text_hobbies, #text_values, #text_schedule{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: left; /*to put all text on the left side*/
+}
+
+a{
+    color: #ffc247;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+dl{ /*Dl is a tag which represents a description of the list (?)*/
+    font-size: 20px;
+    font-weight: bold; /*this is another way of making the text bolder*/
+}
+
+table, th, tr, td {
+    border: 1px solid #ffd1e9;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acct{
+    background-color: indianred;
+    color: #ffe1aa;
+    font-weight: bold;
+}
+
+.comp2{
+    background-color: #0081ad;
+    color: #ffe1aa;
+    font-weight: bold;
+}
+
+.comp1{
+    background-color: #73498d;
+    color: #ffe1aa;
+    font-weight: bold;
+}
+
+.math{
+    background-color: dimgray;
+    color: #ffe1aa;
+    font-weight: bold;
+}
+
+/*Maybe I used dl, dt, and dd incorrectly ^^'', but I hope it is still fine*/
+/*Most explanations about tags I did in the index.html because a lot of tags just repeat in different website. They just have slightly different names (and various ids)*/

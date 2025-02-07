@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--    This it how we link our css file to html file, so we can make our website to look more fabulous-->
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+</head>
+<body>
+<h1>Home Page</h1>  <!-- That's a Title of the Page-->
+<nav>
+    <!--Here we have a tag 'nav', which helps to navigate through links in it (I remember I used it before quite often, but I might forget their true purpose ^^'')-->
+    &rarr;
+    <!--    That's a special symbol, which looks like an arrow. I thought it might look nice for the navigation-->
+
+    <!--    Here we have a tag 'a', where you can provide a link to a different website. Also, the 'target=_blank' is when a customer clicks on it, it will open in a new page-->
+    <a href="index.html" target=”_blank”>Home</a>
+    <a href="achievements.html" target=”_blank”>Achievements</a>
+    <a href="hobbies.html" target=”_blank”>Hobbies</a>
+    <a href="ideals.html" target=”_blank”>Ideals and Values</a>
+    <a href="schedule.html">Schedule</a>
+    &larr;
+</nav>
+
+<!--The 'br' tag is a tag, which helps to make some space between texts, objects, blocks, etc. -->
+<br>
+<img src="me1.jpg" alt="" style="width: 400px; height: 650px; border-radius: 15px; margin-bottom: 10px;"/>
+
+<!--The 'img' tag is the one, which helps to add images to our website. Also, about 'style' is where we can set the appearance of our image and make it look prettier,
+ style="width: 400px; (it is to manage the width of the image) height: 650px (manage the height of it) ; border-radius: 15px (make its corners more circled);
+ margin-bottom: 10px; (move this image to top a bit by leaving some space below, or it is what I remember). In addition, we can put images, which are located
+ in the same folder as this website or add the ones from the internet by using their URL link path."  -->
+
+<blockquote>Hard work pays off if you’re patient enough to see it through.</blockquote>
+– Michael Chandler
+<!--It helps to put a quotation (I forgot how to put quotation marks here by using tag ^^'') -->
+
+<cite><a
+        href="https://teambuilding.com/blog/hard-work-quotes#:~:text=is%20the%20list.-,Hard%20work%20will%20pay%20off%20quotes,.%E2%80%9D%20%E2%80%93%20Beyonc%C3%A9%20Knowles%2DCarter"
+        target=”_blank”>Source</a></cite>
+
+<!--Cite is a tag that helps as to cite the source in italic style-->
+
+<h2>About me</h2>
+<!--A title as well, but a secondary type of title-->
+
+<!--'Div' is a tag, which helps us to create a block, where we can put anything we want and make a text context look more structured and organized.
+Also, we can put id/class into them, so we can make them prettier by using css and calling them through '#' if it is an id, or '.' if it is a class
+I hope I remember it correctly ^^''-->
+
+<div id="container">
+    <div id="pd_container">
+        <div id="text_pd">
+            <h2>Name: Valeriia</h2>
+            <!--Pre is the tag, which shows the text as it written exactly on the code. (Well, more like in this style)-->
+            <pre>TRU ID: T00739110</pre>
+
+            <!--mailto is used to email someone directly-->
+            <a href="mailto:savychv23@mytru.ca">My TRU Email</a>
+            <br>
+            <br>
+            <!-- Address is the tag, which we can use to put our address there, and it will be in italic style-->
+            <address>
+                Address: 409-3410 Valleyview Drive, Kamloops, BC
+            </address>
+            <br>
+
+            <!--tel is used to phone someone directly-->
+            <a href="tel:+12043128274" target=”_blank”>My phone</a>
+            <br>
+            <!--p is to make a paragraph-->
+            <p>Nationality: Ukrainian</p>
+            <p>I live quite far from TRU, but I always try my best to come to classes on time</p>
+        </div>
+    </div>
+    <div id="ob_container">
+        <div id="text_ob">
+
+            <h2>Academic Goals</h2>
+            <p><b>My goals are:</b></p>
+
+            <!-- Ul is the beginning of unordered list, and LI is to contain an item on this list. Also, I guess the
+            list-style-type: square is also one of the ways to change the style of the list -->
+            <ul style="list-style-type: square">
+                <li><i>attending all classes without any misses</i></li>
+                <li><i>completing every single homework in time</i></li>
+                <li><i>perhaps being in a Dean's List during every single semester <s>(if it's possible)</s></i></li>
+                <li><i>pass everything with good grades</i></li>
+                <li><i>Learn something new</i></li>
+                <li><i>Try to be the best student</i> <br>
+                    if not, then just be a good student
+                </li>
+            </ul>
+            <p>The main goal is just doing what I always do during the education, such as attending all classes no
+                matter what, do homework in time (and sometimes more than perfect), and pass everything with good
+                grades. </p>
+        </div>
+    </div>
+
+    <div id="ed_container">
+        <div id="text_ed">
+            <h2>Education</h2>
+            <ul>
+                <li>Went to IT Academy</li>
+                <li>Graduated from Music School</li>
+                <li>Graduated from IT school in 2021</li>
+                <li>Studied Computer Science at European University in Ukraine</li>
+                <li>I didn't graduate from my previous University, because I entered to TRU.</li>
+            </ul>
+            <p>I began attending the music school when I was 7 and was in grade 2nd in my regular school and graduated
+                from it when I was in grade 9th, and I was moving to a different school, which was an IT School. I
+                stopped going to IT Academy because the same company (who had this IT Academy) opened an IT School at
+                that
+                time (in 2019), and I began attending it.</p>
+        </div>
+    </div>
+
+    <div id="work_container">
+        <div id="text_work">
+            <h2>Work Experience</h2>
+            <p>
+                I do not have any experience at working <s>yet</s>.
+                Unfortunately, I do not have them yet because I always busy with my studies.
+                I want to focus on my studies first, and then I will be thinking about getting a job.
+            </p>
+        </div>
+    </div>
+
+    <div id="skill_container">
+        <div id="text_skill">
+            <h2>Skills</h2>
+            <ul>
+                <li>Creative</li>
+                <li>Socialise easily</li>
+                <li>Adapt to new environments</li>
+                <li>Quick Learner</li>
+                <li>Strategic Thinking(?)</li>
+                <li>Knowledge of:</li>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Java</li>
+                    <li>Angular</li>
+                    <li><s>I also know 3 languages (but I will mention them on the page with my ideals)</s></li>
+                    <!--   's' is a crossed text -->
+                </ul>
+            </ul>
+            <p>I know a lot about HTML and CSS, but there are also many parts I need to recall and maybe learn something
+                new as well. I've begun recalling some missing parts, so do not be surprised somewhere if I try to do
+                something that we did not cover in our classes yet. ^^'' </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
