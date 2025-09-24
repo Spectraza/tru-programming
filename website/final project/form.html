@@ -25,25 +25,27 @@
 <section class="sec_form">
     <div class="form_order">
         <br>
-        <h2 class="order_h2">Form for Order</h2>
+        <h2>Form for order</h2>
         <br>
         <form>
+
+
             <label>
-                <input type="text" placeholder="First name" class="form_input">
+
+
+                <input type="text" placeholder="First name" class="first_name_input">
                 <br>
-                <input type="text" placeholder="Last name" class="form_input">
+                <input type="text" placeholder="Last name" class="last_name_input">
                 <br>
-                <input type="email" placeholder="Email" class="form_input">
-                <br>
-                <input type="text" placeholder="Name of your Order" class="form_input">
+                <input type="email" placeholder="Email" class="email_input">
                 <br>
                 <label>Do you have any allergies?</label>
                 <br>
                 <br>
-                <input type="radio" id="yescheck" name="allergies" value="Yes">
+                <input type="radio" id="yescheck" name="allergies" value="Yes" class="yes_input">
                 <label for="yescheck">Yes</label>
                 <br>
-                <input type="radio" id="nocheck" name="allergies" value="No">
+                <input type="radio" id="nocheck" name="allergies" value="No" class="no_input">
                 <label for="nocheck">No</label>
                 <br>
                 <br>
@@ -52,17 +54,16 @@
                     <br>
                     <br>
                     <label>
-                        <textarea cols="50" rows="20" placeholder="Type here" class="text_input"></textarea>
+                        <textarea cols="40" rows="20" placeholder="Type here"></textarea>
                     </label>
                 </label>
-                <br>
-                <label>
-                    <input type="text" placeholder="Street Address" class="form_input" style="width: 60%">
-                </label>
+
             </label>
+
             <br>
-            <div class="button_order">
-                <button type="submit" class="button">Submit</button>
+            <br>
+            <div class="button">
+                <button type="submit">Submit</button>
             </div>
             <br>
         </form>
@@ -72,27 +73,22 @@
 
     <div class="form_order">
         <br>
-        <h2 class="order_h2">Form for Feedback & Questions</h2>
+        <h2>Form for Feedback</h2>
         <br>
         <form>
             <label>
-                <input type="email" placeholder="Email" class="form_input">
+                <input type="text" placeholder="First name" class="first_name_input">
                 <br>
-                Leave the feedback here
+                <input type="text" placeholder="Last name" class="last_name_input">
                 <br>
+                <input type="email" placeholder="Email" class="email_input">
                 <br>
-                <textarea cols="50" rows="10" placeholder="Comment" class="text_input"></textarea>
+                <textarea cols="40" rows="20" placeholder="Your Order"></textarea>
             </label>
             <br>
-            <label>
-                Questions?
-                <br>
-                <br>
-                <textarea cols="50" rows="20" placeholder="Type here" class="text_input"></textarea>
-            </label>
             <br>
-            <div>
-                <button type="submit" class="button">Submit</button>
+            <div class="button">
+                <button type="submit">Submit</button>
             </div>
             <br>
         </form>
