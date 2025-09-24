@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">lab_activity_2</string>
+    <string name="textviewFrom">From</string>
+    <string name="textviewTo">To</string>
+    <string name="textviewLab_act">Lab Activity #2</string>
+    <string name="edittexttexthintsone">Enter Celsius or Fahrenheit</string>
+    <string name="edittexttexthintstwo">Enter either Celsius or Fahrenheit</string>
+    <string name="edittexthintvalue">Enter a value</string>
+    <string name="textviewValue">Value</string>
+    <string name="buttonText">Convert</string>
+    <string name="textviewresult">Result</string>
+    <string name="todoCelsius">Celsius</string>
+    <string name="todoFahrenheit">Fahrenheit</string>
+    <string name="todoArrowLeft">Arrow Left</string>
+    <string name="todoArrowRight">Arrow Right</string>
+    <string name="toast_message_errorone">Please enter something in FROM, TO, and VALUE</string>
+    <string name="titleError">Validation Errors</string>
+    <string name="errortext">Error</string>
+    <string name="OK_button_error">OK</string>
+</resources>
