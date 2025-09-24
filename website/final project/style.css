@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/*Home page*/
 
 h1 {
     padding: 30px 30px 30px 30px;
@@ -45,27 +46,26 @@ header {
 
 }
 
-nav ul {
+ul {
     display: flex;
 }
 
-nav li {
+li {
     list-style: none;
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     nav {
         display: block;
         text-align: center;
     }
 
-    nav ul {
+    ul {
         display: block;
     }
 }
 
-/*Home page*/
 
 .block_we {
     display: flex;
@@ -92,7 +92,7 @@ nav li {
     width: 50%;
     height: auto;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 30px;
     margin-right: 10%;
     position: relative;
 }
@@ -102,7 +102,7 @@ nav li {
     height: auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .block_we {
         display: block;
     }
@@ -140,7 +140,7 @@ nav li {
 .menu_text {
     font-size: 20px;
     font-weight: 100;
-    margin-top: 5%;
+    margin-top: 10px;
     margin-left: 10%;
     margin-right: 10%;
     position: relative;
@@ -155,11 +155,11 @@ nav li {
 
 .menu_text a {
     text-decoration: none;
-    /*font-family:url("fonts/bubbly_3/Bubbly letters.jpg");*/
+    font-family: "JetBrains Mono Medium", fantasy;
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .block_menu {
         display: block;
     }
@@ -207,7 +207,7 @@ nav li {
     margin-left: auto;
     display: flex;
     width: 100%;
-    /*text-align: center;*/
+    text-align: center;
     flex-wrap: wrap;
     align-content: stretch;
 
@@ -220,60 +220,33 @@ nav li {
     margin-left: auto;
     width: 20%;
     height: auto;
-    border: 2px solid #a4a4a4;
-    border-radius: 5px;
-    padding: 2%;
+    border: 3px solid #bbbbbb;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
 }
 
-
-.dish:hover {
-    transition-duration: 0.4s;
-    background-color: #bebebe;
-}
-
-.dish_img{
+.dish img {
     width: 100%;
     height: auto;
     border: 1px solid black;
     border-radius: 4px;
     padding: 5px;
-    background-color: white;
-
-}
-
-.dish_img img {
-    width: 100%;
-    height: auto;
-
-}
-
-.dish h2{
-    text-align: center;
-}
-
-.dish ul{
-    margin-left: 20px;
 }
 
 .dish p {
     width: 100%;
     text-align: left;
-    /*padding-left: 10px;*/
-    /*padding-right: 10px;*/
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.dish_list{
-
-}
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .sec_menu {
         display: block;
     }
-
     .dish {
         width: 80%;
-        padding: 5%;
     }
 }
 
@@ -286,28 +259,33 @@ nav li {
 
 .form_order {
     border: 3px solid #bbbbbb;
-    width: 35%;
+    width: 600px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-.order_h2 {
-    text-align: center;
-}
-
-.form_input {
+.first_name_input{
     text-align: left;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
     border: none;
     border-bottom: 1px solid #333333;
-    width: 45%;
+    width: 35%;
+}
+.last_name_input{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    width: 35%;
 }
 
-.email_input {
+.email_input{
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -318,46 +296,32 @@ nav li {
 }
 
 
-.text_input {
+textarea {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
     border: 1px solid rgba(51, 51, 51, 0.39);
+    width: 35%;
 }
 
-.button {
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    border: 2px solid #9a9a9a;
+.yes_input{
+
 }
 
-.button:hover {
-    background-color: #9a9a9a;
+#nocheck{
+
 }
 
 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 600px) {
     .sec_form {
         display: block;
     }
 
-    .name_input, .email_input, .text_input {
-        width: 90%;
-    }
-
     .form_order {
-        width: 80%;
-        text-align: left;
-        padding-left: 5%;
+        width: 100%;
     }
 
 }
@@ -394,7 +358,6 @@ nav li {
 .text_cont {
     width: 50%;
     padding-top: 5px;
-    margin-left: 10px;
     align-content: center;
 
 }
@@ -419,18 +382,14 @@ nav li {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .sec_cont {
         display: block;
     }
 
-    .text_cont {
-        width: 100%;
-    }
-
     .cont_me {
         width: 80%;
-        display: block;
+        display: flex;
     }
 
 }
